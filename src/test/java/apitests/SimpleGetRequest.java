@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import static io.restassured.RestAssured.given;
 
 public class SimpleGetRequest {
-    String hrurl = "http://52.87.216.245:1000/ords/hr/regions";
+    String hrurl = "http://34.228.41.120:1000/ords/hr/regions";
 
     @Test
     public void test1(){

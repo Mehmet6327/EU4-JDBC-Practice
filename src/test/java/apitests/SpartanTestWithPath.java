@@ -15,7 +15,7 @@ public class SpartanTestWithPath {
 
     @BeforeClass
     public void beforeclass(){
-        baseURI="http://52.87.216.245:8000";
+        baseURI="http://34.228.41.120:8000";
     }
 
     /*

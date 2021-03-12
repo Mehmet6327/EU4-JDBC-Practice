@@ -23,7 +23,7 @@ public class HamcrestMatchersApiTest {
     public void OneSpartanWithHamcrest() {
         given().accept(ContentType.JSON)
                 .and().pathParam("id", 15).
-                when().get("http://52.87.216.245:8000/api/spartans/{id}")
+                when().get("http://34.228.41.120:8000/api/spartans/{id}")
                 .then().statusCode(200)
                 .and().assertThat().contentType(equalTo("application/json"))
                 .and().assertThat().body("id", equalTo(15),
