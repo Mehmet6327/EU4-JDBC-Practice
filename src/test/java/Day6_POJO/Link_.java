@@ -44,6 +44,8 @@ public class Link_ {
 
     public void setHref(String href) {
         this.href = href;
+
+        //I would like test something
     }
 
 }
